@@ -238,3 +238,8 @@ button#printCV {
   top: 0;
   background-color: #1f6b40;
 }
+@media print {
+  button#printCV {
+    display: none;
+  }
+}
